@@ -1,0 +1,18 @@
+#array-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+  
+.bar {
+  width: 20px;
+  margin: 0 2px;
+  background-color: blue;
+  height: 100px; 
+  transition: all 0.3s ease;
+}
+  
+.bar.changed {
+  background-color: red; 
+}
+  
