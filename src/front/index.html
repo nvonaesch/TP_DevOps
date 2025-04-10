@@ -7,11 +7,14 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Visualisation des Algorithmes de Tri</h1>
+  <h1 id="title">Visualisation des Algorithmes de Tri</h1>
   <div id="array-container"></div>
-  <button onclick="startBubbleSort()">Démarrer le Tri à Bulles</button>
-  <button onclick="startInsertionSort()">Démarrer le Tri par Insertion</button>
-  <button onclick="startQuickSort()">Démarrer le Tri Rapide</button>
+  <div id="iteration-counter" ></div>
+  <div id="buttons">
+    <button onclick="startBubbleSort()">Démarrer le Tri à Bulles</button>
+    <button onclick="startInsertionSort()">Démarrer le Tri par Insertion</button>
+    <button onclick="startQuickSort()">Démarrer le Tri Rapide</button>
+  </div>
   <script src="bubbleSort.js"></script>
   <script src="insertionSort.js"></script>
   <script src="quickSort.js"></script>

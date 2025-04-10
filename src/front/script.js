@@ -45,6 +45,7 @@ function startInsertionSort() {
 }
 
 function startQuickSort() {
+  iterationsArray = []
   generateArray();
   quickSort(array, 0, array.length - 1, visualCallback);
 }
