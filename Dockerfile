@@ -6,7 +6,7 @@ COPY package*.json ./
 
 RUN npm install
 
-COPY src/front /usr/src/app/front
+COPY . .
 
 EXPOSE 3000
 
